@@ -1,0 +1,128 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+* { 
+    margin:  0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+body { 
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.img-container { 
+    width: 300px;
+    height: 400px;
+   background-image: url(./assets/image-product-desktop.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 10px 0px 0px 10px; 
+}
+.description{ 
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 22px;
+    border-radius: 0px 10px 10px  0px;
+}
+h2{ 
+    font-size: 32px;
+    max-width: 200px;
+    font-family: 'Fraunces';
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 32px;
+}
+h3{  
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color:  hsl(228, 12%, 48%);
+   margin-bottom: 12px;
+    letter-spacing:5px;
+}
+p{ 
+   font-family: 'Montserrat';
+   color:  hsl(228, 12%, 48%);
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+
+}
+.value{ 
+    display: flex;
+    gap: 19px;
+    margin-bottom:20px ;
+    
+}
+.onSale{
+    font-size: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    line-height: 32px;
+}
+.original-valeu{
+    font-size: 13px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 23px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+ }
+
+button{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 236px;
+    height: 48px; 
+    border: none;
+    border-radius: 8px;
+    background-color:hsl(158, 36%, 37%) ;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+    /* Text */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size:14px;
+    line-height: 17px;
+    
+ 
+   
+} button, img { 
+    margin-right: 12px;
+}
+
+@media (max-width :605px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 14px 0px 14px 0px ;  
+    }
+    .description{ 
+        border-radius: 0px 0px 10px 10px;
+    }
+    .img-container { 
+    
+       border-radius: 10px 10px 0px 0px; 
+    }
+    h2{
+        max-width:  300px;
+    }
+}
