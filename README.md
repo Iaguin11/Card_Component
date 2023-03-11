@@ -3,6 +3,7 @@
 <p align="center">
 Uma desafio front-end proposto pelo site front end mentor, criar um componente de card responsivos .<br/><br/>
 
+
 <hr/>
 </p>
 
@@ -14,8 +15,11 @@ Uma desafio front-end proposto pelo site front end mentor, criar um componente d
 <hr/>
 
 <h2 align="center">Responsivo</h2>
-<p align="center"><ul align= "center"><li>Layount responsivo</li></ul></p>
+<p align="center"> 
+<br>- Layout responsivo</p>
 
 <br><br>
 
-Desenvolvido por [Iago Noveas](https://github.com/Iaguin11)
+ - [Visite o prejto ](https://iaguin11.github.io/Card_Component/)
+
+- Desenvolvido por [Iago Noveas](https://github.com/Iaguin11)
