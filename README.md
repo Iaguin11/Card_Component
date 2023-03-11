@@ -1,7 +1,7 @@
 <h1 align="center"> Preview Card Component</h1>
 
 <p align="center">
-Uma desafio front-end proposto pelo site front end mentor, criar um componente de card responsivos .<br/><br/>
+Um desafio front-end proposto pelo site front end mentor, criar um componente de card responsivos .<br/><br/>
 
 
 <hr/>
